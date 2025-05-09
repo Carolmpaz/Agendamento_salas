@@ -13,7 +13,7 @@ O projeto consiste em uma aplicação web que permite aos usuários visualizar e
 
 ```bash
    git clone https://github.com/carolm.paz/agendamento-salas.git
-   cd seu-projeto
+   cd agendamento-salas
 ```
 
 2. **Instalar as dependências:**
