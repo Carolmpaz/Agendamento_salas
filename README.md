@@ -17,30 +17,19 @@ O projeto consiste em uma aplicação web que permite aos usuários visualizar e
 ```
 
 2. **Instalar as dependências:**
-    
+
 ```bash
-npm install
+npm init -y 
 ```
+
+```bash
+npm install express ejs pg dotenv
+```
+
     
 3. **Configurar o arquivo `.env`:**
     
 Renomeie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente necessárias, como as configurações do banco de dados PostgreSQL.
-    
-
-Configuração do Banco de Dados
-------------------------------
-
-1. **Criar banco de dados:**
-    
-    Crie um banco de dados PostgreSQL com o nome especificado no seu arquivo `.env`.
-    
-2. **Executar o script SQL de inicialização:**
-    
-```bash
-npm run init-db
-```
-    
-Isso criará a tabela `users` no seu banco de dados PostgreSQL com UUID como chave primária e inserirá alguns registros de exemplo.
     
 
 Funcionalidades
